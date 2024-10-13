@@ -92,19 +92,19 @@
         async function loadClans() {
             document.getElementById('main-title').innerText = 'Clãs';
             await loadData('clan');
-            insirirLog('51 ', 'Acessou Clãs');
+            insirirLog('51 ', 'loadClans');
         }
 
         async function loadTeams() {
             document.getElementById('main-title').innerText = 'Times';
             await loadData('team');
-            insirirLog('180', 'Acessou Times');
+            insirirLog('180', 'loadTeams');
         }
 
         async function loadVillages() {
             document.getElementById('main-title').innerText = 'Vilas';
             await loadData('village');
-            insirirLog('38', 'Acessou Vilas');
+            insirirLog('38', 'loadVillages');
         }
 
         async function loadData(category) {
